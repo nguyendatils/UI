@@ -1,0 +1,137 @@
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/Quicksand-SemiBold.ttf) format("opentype");
+}
+
+*{
+    font-family: myfont!important;
+}
+
+html, body {
+    color: #5a574f!important;
+    height: 100%;
+    margin: 0;
+}
+
+#content {
+    min-height: 100%;
+}
+
+.nav-url {
+    height: 50px;
+    background-color: #e6e7e9;
+}
+
+#page-content {
+    padding: 40px 0 0 0;
+    justify-content: space-between;
+}
+
+.content-table {
+    padding: 0 45px 0 40px!important;
+}
+
+
+/* CSS List Menu*/
+/*============================================================================*/
+.listMenu {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+/* Style the sidenav links and the dropdown button */
+
+.listMenu a,
+.dropdown-btn {
+    padding: 10px 6px 10px 0px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+/* On mouse-over */
+
+.listMenu a:hover,
+.dropdown-btn:hover {
+    color: #da2121;
+}
+/* Add an active class to the active dropdown button */
+/* .active {
+    color: #da2121;
+} */
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container {
+    display: none;
+    padding-left: 0px;
+}
+
+#myMenu ul li, #myMenu button{
+    border-bottom: 1px solid #c9c5c0!important;
+}
+
+#myMenu > ul {
+    padding-left: 30px!important;
+}
+
+.dropdown-btn.active::after {
+    content: "\2212";
+    float: right;
+}
+
+.dropdown-btn::after {
+    content: "\002B";
+    float: right;
+}
+
+ul.my-ul-menu-lv2 {
+    padding-left: 0;
+}
+ul.my-ul-menu-lv2 li {
+    padding-left: 15px;
+}
+
+ul li a:hover{
+    text-decoration: none;
+}
+
+ul li.active a {
+    color: #da2121;
+}
+
+.dropdown-btn.active {
+    color: #da2121;
+}
+
+li {
+    list-style-type: none;
+}
+
+.left-divider {
+    border-top: 4px solid #c9c5c0;
+    margin-left: 30px;
+}
+
+/*========================================================*/
+
+#table-title {
+    background-color: #ef0126;
+    height: 45px;
+    line-height: 45px;
+    color: #fff!important;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#update-time {
+    text-align: right;
+}
