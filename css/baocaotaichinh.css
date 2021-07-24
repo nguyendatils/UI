@@ -3,11 +3,12 @@
     src: url(../fonts/Quicksand-SemiBold.ttf) format("opentype");
 }
 
-*{
+* {
     font-family: myfont!important;
 }
 
-html, body {
+html,
+body {
     color: #5a574f!important;
     height: 100%;
     margin: 0;
@@ -27,21 +28,17 @@ html, body {
     justify-content: space-between;
 }
 
-.content-table {
-    padding: 0 45px 0 40px!important;
-}
-
-
-/* CSS List Menu*/
-/*============================================================================*/
 .listMenu {
     height: 100%;
     width: 30%;
     position: fixed;
     top: 0;
     left: 0;
+    /* font-size: 15px; */
     background-color: #fff;
 }
+
+
 /* Style the sidenav links and the dropdown button */
 
 .listMenu a,
@@ -57,16 +54,24 @@ html, body {
     cursor: pointer;
     outline: none;
 }
+
+
 /* On mouse-over */
 
 .listMenu a:hover,
 .dropdown-btn:hover {
     color: #da2121;
 }
+
+
 /* Add an active class to the active dropdown button */
+
+
 /* .active {
     color: #da2121;
 } */
+
+
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 
 .dropdown-container {
@@ -74,11 +79,12 @@ html, body {
     padding-left: 0px;
 }
 
-#myMenu ul li, #myMenu button{
+#myMenu ul li,
+#myMenu button {
     border-bottom: 1px solid #c9c5c0!important;
 }
 
-#myMenu > ul {
+#myMenu>ul {
     padding-left: 30px!important;
 }
 
@@ -95,11 +101,12 @@ html, body {
 ul.my-ul-menu-lv2 {
     padding-left: 0;
 }
+
 ul.my-ul-menu-lv2 li {
     padding-left: 15px;
 }
 
-ul li a:hover{
+ul li a:hover {
     text-decoration: none;
 }
 
@@ -120,18 +127,79 @@ li {
     margin-left: 30px;
 }
 
-/*========================================================*/
+.left-tree ul {
+    padding-left: 0!important;
+}
 
-#table-title {
-    background-color: #ef0126;
-    height: 45px;
+.first-lvl {
+    height: 40px;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.content-table {
+    padding: 0 45px 0 40px!important;
+    font-weight: bold;
+}
+
+#search-bar {
+    background-color: #E6E7E9;
+    height: 55px;
     line-height: 45px;
-    color: #fff!important;
+    color: rgb(32, 31, 31)!important;
     margin: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-#update-time {
-    text-align: right;
+#search-box {
+    border: none;
+    background-color: #ef0126;
+}
+
+#search-box::placeholder {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#search-box,
+#information,
+#search-year {
+    padding: 0;
+}
+
+#search-year {
+    height: 100%;
+    background-color: #E6E7E9;
+    text-align-last: left;
+    border: none;
+    border-top-right-radius: 5px;
+    padding-left: 10px !important;
+    outline: none;
+}
+
+.header-ha {
+    border: none;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.title {
+    padding: 17px 0px 17px 10px !important;
+    text-align: left !important;
+}
+
+.time {
+    padding: 17px 0px 17px 10px !important;
+    text-align: center !important;
+    color: #ef0126;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #3f3f3f !important;
 }
