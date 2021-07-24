@@ -22,6 +22,28 @@ body {
     height: 50px;
     background-color: #e6e7e9;
 }
+.nav-url div ul {
+    background-color: #e6e7e9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+ul.breadcrumb li a.this-page {
+    color: #ef0126;
+}
+
+ul.breadcrumb li a.pre-page {
+    color: #403e3f;
+}
+ul.breadcrumb li a.pre-page:hover {
+    color: #ef0126;
+}
+
+.breadcrumb li:not(:first-child)::before {
+    content: "►";
+    color: #3e3e3f;
+}
 
 #page-content {
     padding: 40px 0 0 0;
