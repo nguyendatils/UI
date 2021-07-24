@@ -204,7 +204,7 @@ table {
 .current-price {
     text-align: center;
     vertical-align: middle!important;
-    font-size: 32px;
+    font-size: 3rem;
     color: #ef0126;
 }
 
@@ -242,7 +242,7 @@ table {
 .col-2 {
     text-align: right;
     font-weight: bold;
-    padding-right: 25px!important;
+    padding-right: 1.5rem!important;
 }
 
 .statistical td {
@@ -256,4 +256,26 @@ table {
     line-height: 45px;
     margin: 0;
     border-top-right-radius: 5px;
+}
+
+@media(max-width: 540px) {
+    .content-table {
+        padding: 0px!important;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        font-size: 10px!important;
+    }
+}
+@media (min-width: 768px){
+    body {
+        font-size: 12px!important;
+    }
+}
+@media (min-width: 992px){
+    body {
+        font-size: 14px!important;
+    }
 }

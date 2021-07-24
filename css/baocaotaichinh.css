@@ -218,10 +218,31 @@ li {
     padding: 17px 0px 17px 10px !important;
     text-align: center !important;
     color: #ef0126;
-    font-size: 13px;
     font-weight: bold;
 }
 
 td {
     border-bottom: 1px solid #3f3f3f !important;
+}
+
+@media(max-width: 540px) {
+    .content-table {
+        padding: 0px!important;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        font-size: 10px!important;
+    }
+}
+@media (min-width: 768px){
+    body {
+        font-size: 12px!important;
+    }
+}
+@media (min-width: 992px){
+    body {
+        font-size: 14px!important;
+    }
 }
