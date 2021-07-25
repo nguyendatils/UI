@@ -1,0 +1,27 @@
+@media (max-width: 46.1875em) {
+    body {
+        font-size: 10px;
+    }
+    .table__header-mobile {
+        background-color: #E6E7E9;
+        height: 55px;
+        line-height: 45px;
+        margin: 10px 10px;
+        /* color: rgb(32, 31, 31)!important; */
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .header__select-year {
+        height: 100%;
+        background-color: #E6E7E9;
+        text-align-last: left;
+        border: none;
+        border-top-right-radius: 5px;
+        /* padding-left: 10px !important; */
+        outline: none;
+    }
+    .th-year {
+        outline: none;
+        width: 25%;
+    }
+}
